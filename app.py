@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load model dan haar cascade
-model = load_model("CNN1_Sc2.h5")
+model = load_model("CNN1_Sc2_converted.keras")
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 labels = ["Tidak Mengantuk", "Mengantuk"]
 
